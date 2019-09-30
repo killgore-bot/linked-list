@@ -76,7 +76,7 @@ while (p->link!=NULL){
 
   p = p->link;
 }
-//if the desired integer is the last node in the link list
+//if the desired integer is to added after the last node in the link list
 if (p->info == item && p->link ==NULL){
   tmp = (struct node*)malloc(sizeof(struct node));
   tmp->info = data;
